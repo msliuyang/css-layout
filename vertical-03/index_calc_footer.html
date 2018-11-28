@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>上下固定，中间自适应</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      height: 100px;
+      background: #eee;
+    }
+
+    footer {
+      height: 100px;
+      background: #eee;
+    }
+
+    section {
+      background: yellow;
+      min-height: calc(100vh - 200px);
+    }
+  </style>
+</head>
+
+<body>
+    <header>我是顶部</header>
+    <section>
+      <h1>上下固定，中间自适应</h1>
+      <p>布局要求：上下固定100px,中间自适应。</p>
+    </section>
+    <footer>底部</footer>
+</body>
+
+</html>
